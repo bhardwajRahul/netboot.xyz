@@ -429,7 +429,7 @@ endpoints:
     version: current
     flavor: BakAndImg
   4mlinux-antivirus:
-    path: /asset-mirror/releases/download/46.0-1.3.1-43b0f75b/
+    path: /asset-mirror/releases/download/47.0-1.4.1-43b0f75b/
     files:
     - initrd
     - vmlinuz
@@ -757,13 +757,13 @@ endpoints:
     os: memtest86-free
     version: '11.0'
   gentoo-x86:
-    path: /asset-mirror/releases/download/20240909T170400Z-5b773f72/
+    path: /asset-mirror/releases/download/20240916T164901Z-5b773f72/
     files:
     - image.squashfs
     - initrd
     - vmlinuz
     os: gentoo
-    version: 20240909T170400Z
+    version: 20240916T164901Z
     arch: x86
   gentoo-arm64:
     path: /asset-mirror/releases/download/20240930T193645Z-d5972d15/
@@ -775,13 +775,13 @@ endpoints:
     version: 20240930T193645Z
     arch: arm64
   gentoo-amd64:
-    path: /asset-mirror/releases/download/20240915T163400Z-63d6ec39/
+    path: /asset-mirror/releases/download/20240923T191858Z-63d6ec39/
     files:
     - image.squashfs
     - initrd
     - vmlinuz
     os: gentoo
-    version: 20240915T163400Z
+    version: 20240923T191858Z
     arch: amd64
   tails:
     path: /asset-mirror/releases/download/6.8.1-911e1aab/
